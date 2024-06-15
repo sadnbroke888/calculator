@@ -1,0 +1,57 @@
+
+.wrapper{
+    max-width: 240px;
+    background: #1C1C1C;
+    margin: 0 auto;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.screen{
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 80px;
+    padding: 20px 10px 10px 10px;
+    font-weight: bold;
+    text-align: right;
+}
+.screen .previous{
+    font-size: 1.5rem;
+    color:rgba(255, 255, 255,0.75);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.screen .current{
+    font-size: 2.5rem;
+    color:white;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.cal-btn-row{
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    margin-bottom: 0.8%;
+}
+.cal-btn{
+    color: #1C1C1C;
+    background: #D4D4D2;
+    font-size: 1.25rem;
+    font-weight: bold;
+    height: 50px;
+    flex-basis: 24.5%;
+    border: none;
+    cursor: pointer;
+}
+.double {
+    flex-basis: 49.65%;
+}
+.cal-btn:hover{
+    background:white;
+}
+.cal-btn:last-child{
+    color: white;
+    background: #FF9500;
+}
+.cal-btn:last-child:hover{
+    color: #FF9500;
+    background:white;
+}
